@@ -1,0 +1,82 @@
+Web -> Collection of webpages 
+
+Web Page : HTML
+                                HTML
+
+                CSS                             JS
+
+
+HTML --> web paage --> Static 
+ dynamic -- interactive -->  JS 
+---------------------------------------------------------------------------
+
+types? 
+ways ?  
+
+1) internal js : HTML -> inside html file 
+2) external js : HTML -> new file .js 
+
+---------------------------------------------------------------------------
+<script> 
+
+</script> 
+---------------------------------------------------------------------------
+
+scripting --> 
+
+1) NOT JAVA 
+2) PL 
+3) case sensitive 
+
+---------------------------------------------------------------------------
+
+C -> HL -> SYS -> LL ->  Compiler 
+
+JS -> script -> browser -> JS Engine 
+
+ 
+Chrome  : Google    : V8
+FireFox : Mozilla   : Spider Monkey 
+IE      : Microsoft : Chakra 
+
+brave -> chromium -> chrome -> Google -> V8
+
+program -> JS -> browser -> console -> terminal -> Node Js 
+
+framework -> 
+---------------------------------------------------------------------------
+
+<script> 
+
+
+JS Engine -> 
+
+chome -> V8 -> 
+
+nodejs-> V8 -> 
+
+
+printf --> document.write 
+
+\n --> br 
+
+----------------------------------------------------------------------------------------------------------------------
+
+parseInt()
+parseFloat() 
+
+----------------------------------------------------------------------------------------------------------------------
+
+Task 1: 
+        read name age and gender from user 
+            if gender is male and age greater thna 17 then eligible for voting 
+            if gender is female and age is greater than 21 then eligible for voting
+            other wise not eligible 
+
+Task 2: 
+        read marks of three subjects , maths sci and eng 
+            if maths + eng is greater than 180 print PASS 
+            if maths + sci i  greater than 190 print PASS 
+            if percentage is greater than 85 print PASS 
+            other wise TRY AGAIN 
+----------------------------------------------------------------------------------------------------------------------
