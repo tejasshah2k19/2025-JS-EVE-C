@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        function eligiblityChecker() {
+
+            firstName = document.vote.firstName.value;
+            gender = document.vote.gender.value;
+            age = parseInt(document.vote.age.value);
+
+            if (gender == "male" && age > 17) {
+                alert(firstName + " Are Eligible");
+            } else if (gender == "female" && age > 21) {
+                alert(firstName + " Are Eligible");
+            } else {
+                alert(firstName + " Sorry Yor Are Not Eligible");
+            }
+        }
+
+
+
+    </script>
+</head>
+
+<body>
+
+    <form name="vote">
+        Name : <input type="text" name="firstName" /><br><br>
+        Gender : Male<input type="radio" value="male" name="gender" />
+        Female<input type="radio" value="female" name="gender" /><Br> <br>
+        Age: <input type="text" name="age" /><br><br>
+
+        <input type="button" value="Check" onclick="eligiblityChecker()" />
+
+    </form>
+
+</body>
+
+</html>

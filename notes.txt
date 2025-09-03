@@ -83,3 +83,14 @@ Task 2:
 
 convert above practical in form 
 ----------------------------------------------------------------------------------------------------------------------
+
+Read marks of three subjects from user 
+
+print Fail in red if percentage < 35 
+print B in Yellow color if percentage 35-50
+print A in Orange color if percentage 51-80 
+print A- in Blue color if percentage 81-90
+print A+ in Green color if percentage 91+
+
+
+----------------------------------------------------------------------------------------------------------------------
