@@ -94,3 +94,89 @@ print A+ in Green color if percentage 91+
 
 
 ----------------------------------------------------------------------------------------------------------------------
+
+C : 
+        int a; 
+        int a=10;
+        a = 20; // we can chnage value --> anytime  
+
+        #define SIZE 5
+        const int SIZE = 5; 
+
+        constant variable -> value fix 
+
+
+js :
+        var let const 
+
+        var a;
+        let b; 
+        var x = 10;
+        let y = 20; 
+
+        x = 100;
+        a = 200;
+        y = 900;
+        b = 200; 
+
+
+        var a  =10;
+        var b = 20;
+        var c = a+b; 
+        document.write(c);
+
+
+        let a = 10;
+        let b = 20;
+        let c = a+b 
+        document.write(c);
+
+        var a = 10;
+        let b= 20;
+        var c  = a+b; 
+        document.write(c);
+
+
+        const a = 10; -> fix value 
+        a =20 ; error -> you can not modify value of a constant variable 
+
+
+        let - var - const 
+
+        var name = "ram"; 
+        var name = 123;
+
+        let name = "ram";
+        let name = 123; //error 
+
+------------------------------------------------------------------------------------------------------
+
+    comments -> 
+
+        C : 
+                single -> // 
+
+                multiline -> /*   */ 
+
+        HTML : 
+                <!--   
+                    comments 
+                -->
+
+        JS :    
+                Single -> // 
+                multiline -> /*  */
+
+------------------------------------------------------------------------------------------------------            
+
+
+    <body bgColor="yellow"> 
+
+    js ->  document.bgColor="yellow"; 
+
+
+
+-------------------------------------------------------
+bYear -> Age -> 18>= -> BgColor -> green -> eligible for voting 
+                -18  -> bgColor -> red -> Not eligible for voting 
+-------------------------------------------------------
