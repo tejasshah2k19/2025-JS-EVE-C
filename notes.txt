@@ -180,3 +180,12 @@ js :
 bYear -> Age -> 18>= -> BgColor -> green -> eligible for voting 
                 -18  -> bgColor -> red -> Not eligible for voting 
 -------------------------------------------------------
+
+
+read -> 
+
+int -> parseInt() 
+
+-------------------------------------------------------
+
+id=> 
