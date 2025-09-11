@@ -189,3 +189,11 @@ int -> parseInt()
 -------------------------------------------------------
 
 id=> 
+
+read num from user -> id 
+
+print -
+                1) num is even or odd 
+                2) num is divisible by 3 or not 
+
+------------------------------------------------------------               
