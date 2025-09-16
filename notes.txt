@@ -196,4 +196,36 @@ print -
                 1) num is even or odd 
                 2) num is divisible by 3 or not 
 
-------------------------------------------------------------               
+------------------------------------------------------------     
+
+html -> script 
+
+type js -> 2 -> 
+
+case ?  yes -> 
+
+prompt() --> string --> parseInt() --> parseFloat() 
+
+document.myForm.abc.value 
+
+document.getElementById("abc").value 
+
+comments -> 1) single 2) multiline 
+
+let var const 
+
+const -> to create constant variable -> 
+
+--------------------------------------------------------------
+
+
+        id vs name 
+
+        id -> unique -> single 
+
+        name -> more than 1 time -> 
+
+
+        innerText VS innerHTML 
+
+
