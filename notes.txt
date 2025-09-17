@@ -228,4 +228,17 @@ const -> to create constant variable ->
 
         innerText VS innerHTML 
 
+        document.getElementById
+        document.getElementsByName 
+
+
+--------------------------------------------------------------
+
+
+events -> 
+        browser -> listener -> listen ->events -> react 
+
+
+        button -> click -> onClick =>
+         
 
