@@ -242,3 +242,15 @@ events ->
         button -> click -> onClick =>
          
 
+        onClick 
+        onDblClick 
+
+        onmouseover
+        onmouseout
+
+        onkeydown
+        onkeyup
+
+
+        
+---------------------------------------------------------------        

@@ -28,9 +28,22 @@
             }
 
 
-            if(hobby[0].checked){
-                document.getElementById("hobbyPrint").innerHTML  = "<b>Hobby : </b>"+hobby[0].value; 
+            let hobbySum = "";
+
+            if (hobby[0].checked) {
+               hobbySum = hobbySum +  hobby[0].value; 
             }
+            if (hobby[1].checked) {
+               hobbySum = hobbySum + " , "+hobby[1].value; 
+            }
+
+            if (hobby[2].checked) {
+                hobbySum = hobbySum +" , " +hobby[2].value;
+            }
+
+            document.getElementById("hobbyPrint").innerHTML="<b>Hobby : </b>"+hobbySum ;
+
+
 
         }
     </script>
@@ -50,14 +63,14 @@
         <option>Ahmedabad</option>
         <option>Baroda</option>
 
-    </select><Br><br> 
+    </select><Br><br>
 
 
-        Hoobby : 
-                    WhatsApp<input type="checkbox" name="hobby" value="WhatsApp"/> 
-                    Ig <input type="checkbox" name="hobby" value="Ig"/>
-                    Coding <input type="checkbox" name="hobby" value="Coding"/>
-                    <br><br>
+    Hoobby :
+    WhatsApp<input type="checkbox" name="hobby" value="WhatsApp" />
+    Ig <input type="checkbox" name="hobby" value="Ig" />
+    Coding <input type="checkbox" name="hobby" value="Coding" />
+    <br><br>
 
     <input type="button" value="Submit" onclick="register()" />
 
