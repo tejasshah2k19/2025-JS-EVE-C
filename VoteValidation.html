@@ -1,46 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
 
-        function voteEligblity(){
+        function voteEligblity() {
             //input 
-            let firstName = document.getElementById("firstName").value ;
-            let age = document.getElementById("age").value; 
+            let firstName = document.getElementById("firstName").value;
+            let age = document.getElementById("age").value;
             let gender = document.getElementsByName("gender");//gender[] 
-       
+            let isError = false; 
             //process 
-                //validation 
-                if(firstName == "")
-                {
-                    document.getElementById("firstNameMsg").innerHTML = "Please Enter FirstName"; 
-                }
+            //validation 
+            if (firstName == "") {
+                isError = true; 
+                document.getElementById("firstNameMsg").innerHTML = "Please Enter FirstName";
+            } else {
+                document.getElementById("firstNameMsg").innerHTML = "";
+            }
 
-                if(age == ""){
-                    document.getElementById("ageMsg").innerHTML = "Please Enter Age";
-                }
+            if (age == "") {
+                isError = true; 
+                document.getElementById("ageMsg").innerHTML = "Please Enter Age";
+            } else {
+                document.getElementById("ageMsg").innerHTML = "";
+            }
 
-                if( !gender[0].checked && !gender[1].checked){
-                    document.getElementById("genderMsg").innerHTML = "Please Select Gender";
-                }
+            if (!gender[0].checked && !gender[1].checked) {
+                isError = true;
+                document.getElementById("genderMsg").innerHTML = "Please Select Gender";
+            } else {
+                document.getElementById("genderMsg").innerHTML = "";
+            }
 
             //output 
-       
+            if(isError == false){ 
+                if (gender[0].checked && age >= 18) {
+                    document.getElementById("result").innerHTML = "<h2>Eligible For Voting</h2>"
+                } else if (gender[1].checked && age >= 19) {
+                    document.getElementById("result").innerHTML = "<h2>Eligible For Voting</h2>"
+                } else {
+                    document.getElementById("result").innerHTML = "<h2>Not Eligible For Voting</h2>"
+                }
+            }
+
         }
     </script>
 </head>
+
 <body>
-    
-    First Name : <input type="text" id="firstName"/> <span id="firstNameMsg" style="color: red;"></span> <br><br> 
 
-    Age :  <input type="number" id="age"/><span id="ageMsg" style="color: red;"></span> <br><br> 
+    First Name : <input type="text" id="firstName" /> <span id="firstNameMsg" style="color: red;"></span> <br><br>
 
-    Gender : Male <input type="radio" name="gender" value="male"/> Female <input type="radio" name="gender" value="female"/> 
+    Age : <input type="number" id="age" /><span id="ageMsg" style="color: red;"></span> <br><br>
+
+    Gender : Male <input type="radio" name="gender" value="male" /> Female <input type="radio" name="gender"
+        value="female" />
     <span id="genderMsg" style="color: red;"></span>
-    <br><br> 
-        <input type="button" value="Submit" onclick="voteEligblity()"/> 
+    <br><br>
+    <input type="button" value="Submit" onclick="voteEligblity()" />
+    <br><Br>
+
+    <div id="result"></div>
 </body>
+
 </html>
