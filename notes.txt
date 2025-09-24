@@ -262,3 +262,16 @@ Gender :   Male()    Female()
 
         [  submit  ]
 
+
+---------------------------------------------------------------        
+
+boolean =>   true , false 
+
+let a = 10; // int
+
+let isError = false ; //boolean 
+
+C lang -> 1:true 0:false 
+
+
+---------------------------------------------------------------        
