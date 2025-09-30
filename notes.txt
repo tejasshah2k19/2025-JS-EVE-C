@@ -275,3 +275,59 @@ C lang -> 1:true 0:false
 
 
 ---------------------------------------------------------------        
+let , var , const 
+
+let a = 10; 
+var a =10; 
+const a = 10; 
+
+
+addition of two numbers -> n1 , n2 , ans 
+
+10 num -> array 
+100 num -> array 
+
+
+array -> collection of n numbers of items / elements 
+single data name 
+
+
+
+int a[10]; //c 
+
+
+let a = [] // js 
+
+let a = [11,22,33,44,55]; // js 
+
+document.write(a); //11 22 33 44 55 
+
+you can access single data item using index 
+index starts with 0 
+and 
+ends with size - 1
+
+how many items you have in an array? 
+length : keyword 
+
+a.length 
+
+
+1) print sum of all the elements in array of size  5 
+2) print max num from array of size 5 
+
+
+
+how to add data dynamically !!!! 
+push() 
+index 
+
+
+let x = [] 
+
+x.push(10);
+
+x[1] = 20; 
+----------------------------------------------
+
+user input -> array 
