@@ -331,3 +331,70 @@ x[1] = 20;
 ----------------------------------------------
 
 user input -> array 
+
+
+
+how to declare empty array ? 
+let a = [] 
+
+
+
+__________ function is use to add item in array?
+push() 
+
+
+_________ keyword is used to check total number of elements in  array ?
+length 
+
+
+i have an array x with unknown size and i want to print last item from x .
+x[ x.length - 1 ]
+
+
+--------------------------------------------------------------------------------
+
+remove element from array ?
+pop() //remove last item from array 
+shift() // remove first item from array 
+splice(start,count) // remove element by index with count 
+
+
+let a = [11,22,33,44,55];
+
+a.pop();// 55 will remove 
+
+
+sub array -> 
+
+let x = [11,22,33,44,55,66,77,88]
+
+
+slice(start,end) ; slice an array with start and end 
+                        start : inclusive 
+                        end   : exclusive 
+
+
+        indexOf -> indexOf(55) -> it will return index of given num if present 
+                   indexOf(100) -> it will return -1 if num not present  
+
+        lastIndexOf ->                
+
+
+--------------------------------------------------------------------------------------
+
+sort() 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
