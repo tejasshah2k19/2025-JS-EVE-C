@@ -459,8 +459,38 @@ array -> sub array -> 3 & 9 divisible =>
 
 -----------------------------------------------------
 
+let arr = [1,2,3,4,5]
+
+...arr 
+
+spread operator 
+
+-----------------------------------------------------
+
+js : 
+
+        internal [ HTML ]
+        external [ HTML , JS ]
+
+how to create external js ?
+create file with .js extension 
+
+how to use? html  ?
+using script tag , src attribute 
 
 
+we will never run .js file 
+we will run .html file 
+-----------------------------------------------------
+
+char -> 'a' 
+String -> "aman"
+
+
+String -->      collection characters 
+
+
+typeof()
 
 
 
