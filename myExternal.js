@@ -52,4 +52,17 @@ for(let i=0;i < str.length ; i++){
 
 
 
+/*
+    
+    slice(start,end) == substring(start,end) : royaleud   myStr.subString(0,3); 0:inclusive 3:exclusive    
+    substr(start,length) : myStr.substr(0,3) -> 0 1 2 
+    toUpperCase() : convert all the characters of the string in upper case 
+    toLowerCase() : convert all the characters of the string in lower case 
+    trim()  : remove space from start and end 
+    trimStart()  : remove space from start 
+    trimEnd() : remove space from end 
+    padStart(count,char) : pad the data in begining with given count-char   
+    padEnd(count,char)   : pad the data in end with given count-char 
+    repeat(count) : this will return replica of string as per given count 
 
+*/
