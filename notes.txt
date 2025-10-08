@@ -512,6 +512,26 @@ typeof()
 
 ------------------------------------------------------------
 
+4) count total words in a string 
+        str -> jony jony yes papa 
+        ans : 4 
+
+5) remove character from string 
+        str -> jony jony yes papa 
+        char -> j 
+        output -> ony ony yes papa 
+
+6) perfectDigitString ->
+        if all the characters are digits in string then it calls perfectDigitString 
+        other wise it calls normal string 
+
+7) find out the most occurence character in string 
+        str -> jony jony yes papa 
+        out -> y 
+
+
+------------------------------------------------------------
+
 
 
 
