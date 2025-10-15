@@ -43,3 +43,83 @@ conditional statement :-
    4) find out max from three numbers 
 
 -------------------------------------------------------------------
+
+print 10 , 20 , 50 
+loop 
+    for 
+    while 
+    do...while 
+
+
+1) print 1 to 10 numbers 
+
+    for(let i=1; i<= 10 ; i++){
+        console.log(i); 
+    }
+
+2) start , end
+    print all the numbers between start and end 
+
+3) start , end
+    print all the numbers between start and end which can divide by 3 or 10  
+
+4) H.w 
+    num 124 => 7 
+    num 74 => 11 
+    num 18 => 9 
+    num 7  => 7
+    num 71 => 8 
+
+-------------------------------------------------------------------------------------
+array -> 
+    collections of multiple data items 
+
+    let a = [] ; //array 
+
+    let arr = [10,20,30,40,50]; 
+
+    //add data/element/item in an existing array 
+    push()
+
+    arr.push(60); //add item at the end of an array 
+
+    console.log(arr);// 10 20 30 40 50 60 
+
+    //remove element from arry 
+    pop() 
+
+    arr.pop(); //remove item from array at the end 
+    console.log(arr);// 10 20 30 40 50
+
+    //how many elements you have in array? 
+    length 
+    console.log(arr.length); 
+
+    //how to access individual element from array ? 
+    using index , starts with 0 
+    
+        first element 
+            console.log(arr[0])
+        
+        second element 
+            console.log(arr[1])
+
+    //print all the items one by one 
+
+    for(i=0; i<arr.length ;i++ ){
+        console.log(arr[i]);
+    }        
+
+//c? vs js? 
+    no size
+    no data type issue 
+
+
+    let mix = [1,2,3,"rock",true,4,52.52];
+
+
+    1) print sum of all elements in array 
+    2) find out min and max number from array 
+    
+
+-------------------------------------------------------------------
