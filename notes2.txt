@@ -120,6 +120,88 @@ array ->
 
     1) print sum of all elements in array 
     2) find out min and max number from array 
-    
+
+    3) reverse array without inbuilt function 
+    4) check array is palindrome or not 
+        arr => 1,2,3,3,2,1 
+        arr => 1,2,3,2,1 
+        arr => 1,2,3,4,2,1 X 
+        
+
 
 -------------------------------------------------------------------
+
+
+let arr = [11,22,33,44,55]
+
+for(i=0; i <arr.length ; i++ ){
+    console.log(arr[i]);
+}
+
+forEach() 
+    1) single element access 
+    2) process -> output -> read only 
+    3) no modification in main array 
+
+
+let arr = [11,22,33,44,55]
+
+arr.forEach( tmp =>{
+    console.log(tmp);
+}); 
+
+0) print all the elements using forEach 
+    arr.forEach( tmp =>{
+        console.log(tmp);
+    }); 
+
+1) find out sum of all elements using forEach 
+    let sum =0; 
+
+    arr.forEach( tmp => {
+        sum = sum + tmp; 
+    });
+
+    console.log("sum =>"+sum);
+    
+
+2) count total odd and even numbers in array using forEach 
+
+    let oddCounter =0;
+    let evenCounter =0; 
+
+    arr.forEach(tmp => {
+        if(tmp % 2 == 0 ){
+            evenCounter++;
+        }else{
+            oddCounter++;
+        }
+    })
+
+    console.log("odd counter => "+oddCounter);
+    console.log("even counter => "+evenCounter);
+
+
+-------------------------------------------------------------------
+filter() 
+    let arr = [11,22,33,44,55]
+
+* main array conditional/ condition statement new array 
+
+
+0) create oddArray{all odd elements} and evenArray{all even elements} from main array 
+
+    let evenArray =   arr.filter(tmp => tmp % 2 == 0  );
+    let oddArray =   arr.filter(tmp => tmp % 2 != 0  );
+
+    console.log(oddArray);
+    console.log(evenArray); 
+
+
+1) let perc = [34,56,78,76,54,85,96,74,85,54]
+    create array that having all the perc which is greater tha 70 
+
+2) let arr = [11,22,33,44,55] 
+    get all the elements from array which can divide by 5
+
+    
