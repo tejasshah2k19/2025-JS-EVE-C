@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        let bomb1 = 3;
+        let bomb2 = 6;
+        let bomb3 = 9;
+
+        function game(id) {
+
+            if (id == bomb1 || id == bomb2 || id == bomb3) {
+                document.getElementById(id).src = "bomb.png";
+
+            } else {
+                document.getElementById(id).src = "diamond.png";
+            }
+        }
+    </script>
+    <style>
+        td {
+            height: 100px;
+            width: 100px;
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="center">Diamond Game</h1>
+    <table align="center">
+
+        <tr>
+            <td onclick="game(1)" align="center"> <img id="1" /></td>
+            <td onclick="game(2)" align="center"> <img id="2" /></td>
+            <td onclick="game(3)" align="center"> <img id="3" /></td>
+
+        </tr>
+        <tr>
+            <td onclick="game(4)" align="center"> <img id="4" /></td>
+            <td onclick="game(5)" align="center"> <img id="5" /></td>
+            <td onclick="game(6)" align="center"> <img id="6" /></td>
+
+        </tr>
+        <tr>
+            <td onclick="game(7)" align="center"> <img id="7" /></td>
+            <td onclick="game(8)" align="center"> <img id="8" /></td>
+            <td onclick="game(9)" align="center"> <img id="9" /></td>
+        </tr>
+
+    </table>
+</body>
+
+</html>

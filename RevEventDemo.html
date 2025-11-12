@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function fnOnClickDemo(){
+            alert('on Click');
+        }
+
+        function fnDblClickDemo(){
+            alert("onDoubleClick");
+        }
+
+        function fnMouseOverDemo(){
+            alert("Mouse Over Demo");
+        }
+
+        function fnMouseOutDemo(){
+            alert("Mouse Out Demo");
+        }
+    </script>
+</head>
+<body>
+
+    <input type="button" value="On click"  onclick="fnOnClickDemo()"/><br><Br> 
+    <input type="button" value="On Dbl click" ondblclick="fnDblClickDemo()"/><Br><br> 
+    <br><br> 
+
+    <img src="pic_bulbon.gif" onmouseover="fnMouseOverDemo()">
+        <br><br> 
+
+<img src="pic_bulbon.gif" onmouseout="fnMouseOutDemo()">
+    
+
+</body>
+</html>

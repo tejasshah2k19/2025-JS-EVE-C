@@ -204,4 +204,17 @@ filter()
 2) let arr = [11,22,33,44,55] 
     get all the elements from array which can divide by 5
 
-    
+-----------------------------------------------------------------------
+
+Event -> 
+        Listener -> listen -> events -> 
+                browser 
+                button click double click
+                key  press up down 
+                mouse  over out 
+
+
+
+btn onClick 
+btn onDblClick 
+

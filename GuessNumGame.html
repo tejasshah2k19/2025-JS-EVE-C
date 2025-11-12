@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        // let winningNum = parseInt(Math.random() * 100);//80
+
+        let winningNum = 1;
+        function fnGame() {
+
+            //read 
+            let userNum = document.getElementById("data").value; //70
+
+            if (userNum == undefined || userNum == "") {
+                alert("Please Enter num");
+            } else {
+                userNum = parseInt(userNum);
+
+                if (winningNum == userNum) {
+                    // alert(" Winner ");
+                    location.href = "GameWinner.html";
+                } else {
+                     if(winningNum > userNum){
+                        alert("Your Number is lower than winning number");
+                     }else{
+                        alert("your number is greater than wining number");
+                     }
+                }
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+
+    Enter Number : <input type="number" id="data" /><br><br>
+
+    <input type="button" value="Check" onclick="fnGame()" />
+</body>
+
+</html>
