@@ -218,3 +218,24 @@ Event ->
 btn onClick 
 btn onDblClick 
 
+-------------------------------------------
+
+storage -> 
+    1) local storage 
+    2) session storage 
+    3) cookie 
+
+browser's memory 
+    
+    
+    1) local storage 
+            -> data save , format -> key: value 
+                                     "name" : "ram" 
+                                     "score" : 20 
+            -> setItem() 
+            -> getItem() 
+            -> removeItem()
+            -> clear() 
+
+
+-------------------------------------------

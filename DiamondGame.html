@@ -7,17 +7,38 @@
     <title>Document</title>
     <script>
 
-        let bomb1 = 3;
-        let bomb2 = 6;
-        let bomb3 = 9;
+        let bomb1 = parseInt(Math.random() * 10) % 9 + 1;//02
+        let bomb2 = parseInt(Math.random() * 10) % 9 + 1;
+        let bomb3 = parseInt(Math.random() * 10) % 9 + 1;
+
+        let winningCount = 0; 
+
+        while (bomb1 == bomb2 || bomb2 == bomb3 || bomb1 == bomb3) {
+            bomb1 = parseInt(Math.random() * 10) % 9 + 1;//02
+            bomb2 = parseInt(Math.random() * 10) % 9 + 1;
+            bomb3 = parseInt(Math.random() * 10) % 9 + 1;
+        }
+
+        console.log(bomb1);
+        console.log(bomb2);
+        console.log(bomb3);
 
         function game(id) {
 
             if (id == bomb1 || id == bomb2 || id == bomb3) {
                 document.getElementById(id).src = "bomb.png";
+                setTimeout(function () {
+                    location.href = "DiamondGameOver.html";
+
+                }, 500);
 
             } else {
                 document.getElementById(id).src = "diamond.png";
+                winningCount++;
+
+                if(winningCount == 3){
+                    location.href = "DiamondGameWin.html";
+                }
             }
         }
     </script>
