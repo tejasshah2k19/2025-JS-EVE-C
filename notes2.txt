@@ -239,3 +239,32 @@ browser's memory
 
 
 -------------------------------------------
+api -> 
+        JSON
+
+    { 
+            key:value 
+    }
+
+
+
+    let user = {
+        "firstName":"rock",
+        "lastName":"patel",
+        "email":"rock@yopmail.com"
+    }
+-------------------------------------------
+
+
+jquery 
+
+
+
+
+
+
+
+
+
+
+

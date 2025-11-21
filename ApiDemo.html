@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+</head>
+
+<body>
+    <h1>Product List</h1>
+
+    <div id="myData"></div>
+
+    <script>
+
+        // let data = {
+        //     "name": "ram",
+        //     "city": "ahmedabad"
+        // }
+
+        // console.log(data);
+        // console.log(data.name);
+        // console.log(data.city);
+
+
+        // let array = [
+        //     { "name": "rock", "city": "USA" },
+        //     { "name": "jack", "city": "China" },
+        //     { "name": "sakira", "city": "SA" }
+        // ]
+
+        // console.log(array[1].name);
+
+        $.get("https://api.restful-api.dev/objects", function (data) {
+            // console.log(data);
+            // console.log(data[0]);
+            // console.log(data[0].name);
+
+            let products = ""; 
+            for (i = 0; i < data.length; i++) {
+                console.log(data[i].name);
+                products = products + data[i].name + "<BR>"; 
+            }
+
+             document.getElementById("myData").innerHTML = products;
+
+        })
+    </script>
+
+
+</body>
+
+</html>
